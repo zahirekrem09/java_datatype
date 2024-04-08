@@ -1,17 +1,25 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.time.Duration;
+import java.time.Instant;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
-    }
+public class Main {
+
+    static NumberType numberType = new NumberType();
+
+    public static void main(String[] args) {
+//     numberType.primeListPrint();
+//        System.out.println(numberType.numType(2924));
+//        System.out.println(numberType.numType(6));
+//        System.out.println(numberType.numType(496));
+//        System.out.println(numberType.numType(8129));
+//        System.out.println(numberType.numType(33550336));
+//        System.out.println(numberType.numType(33550337));
+
+        System.out.println(numberType.primorialNumber(8));
+
 }
+}
+
